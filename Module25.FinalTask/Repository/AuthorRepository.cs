@@ -1,4 +1,4 @@
-﻿using Module25.FinalTask.Config;
+﻿using Module25.FinalTask.Checks;
 using Module25.FinalTask.Entities;
 using AppContext = Module25.FinalTask.DB.AppContext;
 

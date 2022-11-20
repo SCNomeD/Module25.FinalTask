@@ -1,11 +1,11 @@
-﻿namespace Module25.FinalTask.Config
+﻿namespace Module25.FinalTask.Checks
 {
-    public class AlertMessage
+    public static class SuccessMessage
     {
         public static void Show(string message)
         {
             ConsoleColor originalColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(message);
             Console.ForegroundColor = originalColor;
         }

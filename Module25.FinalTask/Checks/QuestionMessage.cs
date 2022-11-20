@@ -1,4 +1,4 @@
-﻿namespace Module25.FinalTask.Config
+﻿namespace Module25.FinalTask.Checks
 {
     public static class QuestionMessage
     {
